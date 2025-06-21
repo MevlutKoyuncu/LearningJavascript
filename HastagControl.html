@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Hastag Control</title>
+    </head>
+    <body>
+        <h3>getElementByID()</h3>
+        <p id="p_isim"></p>
+
+        <h3>inner HTML</h3>
+        innerHTML = Açma kapatma etiketlerinin arasına
+
+        <h3>Inner Text</h3>
+        innerText = Text alanına erişim sağlar.
+
+        <script>
+            document.getElementById("p_isim").innerHTML = "<b> Kalın Yazı </b> ile yazıldım";
+            //document.getElementById("p_isim").innerText = "Selam";
+
+            console.log(document.getElementById("p_isim").innerText)
+
+            document.write("Selam")
+            
+        </script>
+    </body>
+</html>
